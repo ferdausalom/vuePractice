@@ -1,0 +1,12 @@
+
+.left-sidebar {
+  background-color: $primary;
+}
+.side-nav ul li a{
+  color: $tertiary;
+}
+.side-nav ul li a:hover img{
+  background-color: $primary;
+  border-radius: 20px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.10);
+}

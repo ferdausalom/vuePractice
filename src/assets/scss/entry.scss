@@ -1,0 +1,32 @@
+// SCSS ENTRY POINT 
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+body, html{
+    font-family: 'Cairo', sans-serif;
+}
+
+$primary: #ffffff;
+$secondary: #F1F6FA;
+$blue-light:#E3EBF1;
+$tertiary: #6F96AA;
+$hover: #FF844B;
+$font-14:14px;
+$font-16:16px;
+$font-18:18px;
+$font-20:20px;
+$weight-700:700;
+$weight-600:600;
+
+.active{
+    background-color: $primary;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.10);
+}
+
+@import "left-sidebar";
+@import "middle-content";
+@import "right-side";
+@import "responsive";
+
+

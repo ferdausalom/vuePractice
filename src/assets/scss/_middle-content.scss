@@ -1,0 +1,55 @@
+
+.middle-content{
+    background-color: $secondary;
+}
+.search-form{
+    background-color: $primary;
+}
+.search-form img{
+    margin: 0 10px 0 0;
+}
+.search-form input{
+    width: 100%;
+}
+.search-form input:focus{
+    outline: none;
+}
+.search-form input::placeholder{
+    color: $tertiary;
+}
+.notification-area div {
+    margin: 0 25px 0 24px;
+}
+.notification-area .profile div {
+    margin-right: 0;
+}
+.notification-area .profile {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.notification-area div img{
+    cursor: pointer;
+}
+.message span, .notification span{
+    background-color: $hover;
+    padding: 2px 7px;
+    text-align: center;
+    top: -14px;
+    right: -15px;
+    color: $primary;
+    font-size: $font-14;
+    cursor: pointer;
+}
+.profile h2{
+    font-size: $font-18;
+    font-weight: $weight-700;
+    color: $tertiary;
+}
+.profile p{
+    font-size: $font-18;
+    color: $tertiary;
+}
+.profile img{
+    width: 60px;
+    height: 60px;
+}

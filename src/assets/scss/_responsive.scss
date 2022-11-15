@@ -1,0 +1,28 @@
+@media (min-width:768px) and (max-width:1199px)
+{
+    .middle-top{
+        flex-wrap: wrap;
+        margin: 45px 0 0 0;
+    }
+    .middle-top-first-col{
+        width: 100%;
+    }
+    .middle-top-last-col{
+
+        width: 100%;
+    }
+    .notification-area .profile {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:767px)
+{
+    .notification-area{
+        flex-wrap: wrap;
+        margin: 45px 0 0 0;
+    }
+    .notification-area .profile {
+        margin-top: 40px;
+    }
+}
